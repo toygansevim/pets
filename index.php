@@ -16,8 +16,8 @@ $f3 = Base::instance();
 $f3->route('GET /', function (){
 
     $view = new View;
-    //echo $view->render('views/home.html');
-    echo "Pet Home";
+    echo $view->render('views/home.html');
+    //echo "Pet Home";
 
 });
 
